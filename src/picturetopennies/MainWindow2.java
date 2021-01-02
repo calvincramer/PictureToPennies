@@ -410,7 +410,7 @@ public class MainWindow2 extends javax.swing.JFrame {
         }
         
         try {
-            File outputfile = new File("C:\\Users\\Calvin Cramer\\Desktop\\img.png");
+            File outputfile = new File("C:\\Users\\Calvin\\Desktop\\img.png");
             ImageIO.write(filteredImage, "png", outputfile);
 
         } catch (IOException e) {
